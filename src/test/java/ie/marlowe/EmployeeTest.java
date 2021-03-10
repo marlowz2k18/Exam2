@@ -19,11 +19,15 @@ public class EmployeeTest {
 
     @Test
     public void testEmployee(){
+        el = new EmployeeList();
         e = new Employee();
+
         System.out.println("Enter name");
         String name = scanner.nextLine();
         System.out.println("Enter employee number");
         String number = scanner.nextLine();
+
+        //if(el.addEmployee(e))
     }
 
     @Test
