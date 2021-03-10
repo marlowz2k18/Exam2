@@ -25,4 +25,10 @@ public class EmployeeList extends Employee {
             throw new IllegalArgumentException("No matching Employee found");
         }
     }
+
+    public void listSize(){
+        for(int i = 0; i<this.empList.size(); i++){
+            System.out.println(i);
+        }
+    }
 }
